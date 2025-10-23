@@ -1,4 +1,4 @@
-name: nf
+name: crp12_nf
 channels:
   - conda-forge
   - defaults

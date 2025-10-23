@@ -1,0 +1,11 @@
+name: tfm_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11.4
+  - pip
+  - pip:
+      - numpy=1.26.4
+      - timesfm[torch]
+      - matplotlib
+      

@@ -1,0 +1,9 @@
+name: uni2ts
+channels:
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip
+  - pip:
+      - uni2ts
+      - matplotlib

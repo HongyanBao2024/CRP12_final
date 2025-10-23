@@ -1,0 +1,11 @@
+parameters:
+  context_size: 12 # test use 32 real use 128
+  horizon: 12 # test use 4 real use 13
+  LAG: 3
+  freq: "M"
+  testing_len: 11 # test use 4 real use 13
+  overwrite_flag: True
+  task: 'CRP12'
+  initial_processing: True
+paths:
+  demand_data_path: 'inputoutput/enriched_output.xlsx'
